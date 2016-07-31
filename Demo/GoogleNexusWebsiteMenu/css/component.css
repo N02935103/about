@@ -97,7 +97,7 @@
 		position: fixed;
 		top: 60px;
 		bottom: 0;
-		left: 0;
+		left: 0px;
 		overflow: hidden;
 		width: 60px;
 		border-top: 1px solid #c6d0da;
@@ -115,6 +115,7 @@
 		overflow-y: scroll;
 		width: 370px;
 		height: 100%;
+
 }
 
 .gn-menu {
