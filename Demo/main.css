@@ -868,19 +868,32 @@ padding: 5px 5px;
 
 #contact{
 	background-color:#E0EEEE;
+	opacity:0.9;
+	padding-top:50px;
+
 }
 
-#contact h1{
 
-}
 
 section#contact .form-group {
-margin-bottom:5px;
+	margin-top:-5px;
+	opacity:0.9;
+
 }
 
-section#contact .form-group input,section#contact .form-group textarea {
+section#contact .form-group input{
 padding:20px;
 width:500px;
+margin-top:20px;
+
+
+}
+
+section#contact .form-group textarea {
+padding:20px;
+width:500px;
+margin-top:20px;
+
 
 }
 
@@ -889,7 +902,7 @@ height:auto;
 }
 
 section#contact .form-group textarea.form-control {
-height:236px;
+height:190px;
 }
 
 section#contact .form-control:focus {
@@ -899,4 +912,34 @@ border-color:#fed136;
 
 section#contact .text-danger {
 color:#e74c3c;
+}
+
+.button-message{
+	background-color:green;
+	width:250px; 
+}
+
+section#contact .contact{
+	margin-top:17px;
+	background: rgba(255,255,255,0.9);
+
+}
+
+.main section.page6 .col-lg-12{
+	padding-top:35px;
+}
+
+.flexcontainer{
+	padding-top:20%;
+	
+}
+
+.flexcontainer img{
+ border: green 3px solid;
+
+}
+
+.flexcontainer img:hover{
+ border: white 5px solid;
+
 }
